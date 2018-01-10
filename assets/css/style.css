@@ -1,0 +1,102 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.socialButton{
+    height: 75px;
+    width: 75px;
+    margin: 5px;
+    float: left;
+}
+
+.heading{
+
+}
+
+#name{
+    float: left;
+    background-color: green;
+    margin-left: 150px;
+}
+
+#mePic{
+    height: 200px;
+    width: 200px;
+    float: left;
+    margin: 0 0 0 10px;
+}
+
+#socialCase{
+
+}
+
+#center{
+    background-color: cyan;
+    width: 960px;
+    margin: 0 auto;
+}
+
+header{
+    height: 80px;
+    background-color: lightgrey;
+    overflow: auto;
+}
+
+nav{
+    background-color: blue;
+    float: right;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+article{
+    background-color: aquamarine;
+    width: 650px;
+    margin: 20px 20px 20px 0;
+    float: left;
+
+}
+
+aside{
+    background-color: aqua;
+    width: 270px;
+    float: left;
+    margin: 20px 0 20px 20px;
+}
+
+footer{
+    height: 80px;
+    line-height: 80px;
+    background-color: gray;
+    text-align: center;
+    border-top: solid;
+    border-color: blueviolet;
+    border-width: 5px;
+    clear: both;
+}
+
+h1{
+    padding: 
+    font-size: 16pt;
+}
+
+h2{
+    font-size: 14pt;
+}
+
+h3{
+    font-size: 12pt;
+    text-align: center;
+    padding: 20px;
+}
+
+h4{
+    font-size: 10pt;
+}
+
+p{
+    padding: 0 10px 10px 10px;
+}
