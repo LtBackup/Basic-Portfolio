@@ -2,6 +2,10 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.floatRight{
+    float: right;
+}
+
 .socialButton{
     height: 75px;
     width: 75px;
@@ -9,14 +13,13 @@
     float: left;
 }
 
-.heading{
-
-}
-
 #name{
     float: left;
     background-color: green;
-    margin-left: 150px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    padding: 0 30px;
 }
 
 #mePic{
@@ -27,28 +30,37 @@
 }
 
 #socialCase{
-
+    width: 255px;
+    margin: 0 auto;
 }
 
-#center{
+#bodyCenter{
     background-color: cyan;
     width: 960px;
     margin: 0 auto;
 }
 
+#topCenter{
+    background-color: cyan;
+    width: 960px;
+    height: 80px;
+    margin: 0 auto;
+    position: relative;
+}
+
 header{
     height: 80px;
     background-color: lightgrey;
-    overflow: auto;
+    position: relative;
 }
 
 nav{
     background-color: blue;
     float: right;
+    line-height: 80px;
 }
 
 body{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-color: white;
 }
 
@@ -57,7 +69,6 @@ article{
     width: 650px;
     margin: 20px 20px 20px 0;
     float: left;
-
 }
 
 aside{
@@ -99,4 +110,5 @@ h4{
 
 p{
     padding: 0 10px 10px 10px;
+    line-height: 1.6;
 }
