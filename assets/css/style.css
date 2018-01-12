@@ -1,9 +1,7 @@
-*{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 .floatRight{
     float: right;
+    padding: 0 20px;
+    font-size: 18px;
 }
 
 .socialButton{
@@ -13,20 +11,49 @@
     float: left;
 }
 
+.portItem{
+    margin: 20px 15px 20px 10px;
+    float: left;
+    position: relative;
+}
+
+.portImage{
+    height: 200px;
+    width: 300px;
+    position: relative;
+    z-index: 1;
+}
+
+.portText{
+    background-color: dodgerblue;
+    height: 40px;
+    width: 300px;
+    line-height: 40px;
+    font-size: 14pt;
+    z-index: 2;
+    position: absolute;
+    bottom: 10px;
+}
+
+.form{
+
+}
+
 #name{
     float: left;
-    background-color: green;
     height: 80px;
     line-height: 80px;
     text-align: center;
+    font-size: 24pt;
     padding: 0 30px;
+    background-color: dodgerblue;
 }
 
 #mePic{
     height: 200px;
     width: 200px;
     float: left;
-    margin: 0 0 0 10px;
+    margin: 0 10px 0 10px;
 }
 
 #socialCase{
@@ -35,44 +62,74 @@
 }
 
 #bodyCenter{
-    background-color: cyan;
     width: 960px;
+    min-height: calc(100vh - 170px);
     margin: 0 auto;
 }
 
 #topCenter{
-    background-color: cyan;
     width: 960px;
-    height: 80px;
     margin: 0 auto;
     position: relative;
 }
 
+#submit{
+    background-color: dodgerblue;
+    width: 100px;
+    height: 50px;
+}
+
+a:link{
+    text-decoration: none;
+    color: #333;
+}
+
+a:visited{
+    text-decoration: none;
+    color: #333;
+}
+
+a:hover{
+    color: dodgerblue;
+}
+
+a:active{
+    color: #333;
+}
+
 header{
     height: 80px;
-    background-color: lightgrey;
+    background-color: gray;
     position: relative;
+    border-bottom: solid;
+    border-color: dodgerblue;
+    border-width: 5px;
 }
 
 nav{
-    background-color: blue;
     float: right;
     line-height: 80px;
 }
 
-body{
-    background-color: white;
+html, body{
+    font-family: 'century gothic', Verdana, sans-serif;
+    background-image: url("../images/triangular.png");
+    background-color: lightgray;
+    color: #333;
 }
 
 article{
-    background-color: aquamarine;
+    background-color: lightgray;
     width: 650px;
     margin: 20px 20px 20px 0;
     float: left;
+    /* border-style: solid;
+    border-color: #7c0ce8;
+    border-width: 2px; */
 }
 
 aside{
-    background-color: aqua;
+    background-color: lightgray;
     width: 270px;
     float: left;
     margin: 20px 0 20px 20px;
@@ -80,22 +137,26 @@ aside{
 
 footer{
     height: 80px;
+    width: 100%;
     line-height: 80px;
     background-color: gray;
     text-align: center;
     border-top: solid;
-    border-color: blueviolet;
+    border-color: dodgerblue;
     border-width: 5px;
     clear: both;
+    /* position: absolute;
+    bottom: 0; */
 }
 
-h1{
-    padding: 
+h1{ 
     font-size: 16pt;
 }
 
 h2{
-    font-size: 14pt;
+    font-size: 20pt;
+    padding: 20px 10px 10px 30px;
+
 }
 
 h3{
@@ -109,6 +170,11 @@ h4{
 }
 
 p{
+    font-family: muli, sans-serif;
     padding: 0 10px 10px 10px;
     line-height: 1.6;
+}
+
+hr{
+    padding: 0 10px;
 }
