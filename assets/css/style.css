@@ -180,8 +180,12 @@ p{
 }
 
 hr{
-    width: 95%;
+    width: 97%;
+    height: 1.5px;
     border-width: 2px;
+    border-style: solid;
+    border-color: #E8860C;
+    background-color: #333;
 }
 
 
