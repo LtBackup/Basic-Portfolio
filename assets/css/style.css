@@ -35,10 +35,6 @@
     bottom: 10px;
 }
 
-.form{
-
-}
-
 #name{
     float: left;
     height: 80px;
@@ -75,8 +71,15 @@
 
 #submit{
     background-color: dodgerblue;
+    color: #333;
     width: 100px;
     height: 50px;
+    float: right;
+    margin: 0 20px 10px 0;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
 }
 
 a:link{
@@ -123,6 +126,7 @@ article{
     width: 650px;
     margin: 20px 20px 20px 0;
     float: left;
+    position: relative;
     /* border-style: solid;
     border-color: #7c0ce8;
     border-width: 2px; */
@@ -176,5 +180,39 @@ p{
 }
 
 hr{
-    padding: 0 10px;
+    width: 95%;
+    border-width: 2px;
+}
+
+
+input[type=text] {
+    width: 95%;
+    padding: 12px 20px;
+    margin: 15px 0 15px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #333;
+    /* border-radius: 4px; */
+}
+
+textarea{
+    width: 95%;
+    padding: 12px 20px;
+    margin: 15px 0 15px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 2px solid #333;
+    clear: both;
+}
+
+#message{
+    height: 200px;
+}
+
+.centerForm{
+    text-align: center;
+}
+
+label{
+    margin: 0 0 0 20px;
 }
